@@ -1,47 +1,21 @@
-# Foundation for Sites Template
+# OMDb Movie Database
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+An Object Orianted Programmed approach to use the OMDb REST API built using Foundation.
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+![alt text](https://i.imgur.com/DsiX4l6.png)
 
-## Installation
-
-To use this template, your computer needs:
-
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
-
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+Features:
+- Search up to 10 movies at a time
+- Sort alphabetically or by year
+- Filter by year
+- Reset filters
+- Light / dark theme
+- Get more information
+  - Genre, actors, rating, release date, runtime and view on IMDb
+  
+Setup:
+- Visit http://www.omdbapi.com/apikey.aspx and generate API key
+- Update this.apiKey with the generated key
+ 
+![alt text](https://i.imgur.com/IYrtunU.png)
+![alt text](https://i.imgur.com/iT9igJp.png)
