@@ -1,6 +1,6 @@
 # OMDb Movie Database
 
-An Object Orianted Programmed approach to use the OMDb REST API built using Foundation.
+An Object Orianted Programming approach to use the OMDb REST API built using Foundation.
 
 ![alt text](https://i.imgur.com/DsiX4l6.png)
 
